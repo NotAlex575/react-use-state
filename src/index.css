@@ -21,3 +21,14 @@ header{
   color: black;
 }
 
+main{
+  height: 400px;
+  margin-top: 20px;
+}
+
+.container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid black;
+}
