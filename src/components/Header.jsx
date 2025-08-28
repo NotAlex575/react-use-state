@@ -2,7 +2,7 @@ const Header = () =>{
     return(
         <header>
             <div className="titolo">
-                Titolo
+                <h1>Learn Web development</h1>
             </div>
         </header>
     )
