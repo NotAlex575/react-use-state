@@ -1,8 +1,10 @@
-const Buttons = ({language}) => {
+const Buttons = ({language, onClick}) => {
     const {title} = language;
     console.log(language)
     return(
-        <button className="button">{title}</button>
+        <button className="button" onClick={onClick}>
+            {title}
+        </button>
     )
 }
 
