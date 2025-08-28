@@ -11,7 +11,8 @@ const Main = () => {
                     <button>6</button>
                 </div>
                 <div className="container-description">
-
+                    <h2>Nome linguaggio</h2>
+                    <p>Descrizione</p>
                 </div>
             </div>
         </main>
