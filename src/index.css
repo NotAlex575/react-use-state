@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+/*FLEX*/
+
+
+
+
+
 /*HEADER*/
 
 header{
@@ -21,6 +27,8 @@ header{
   color: black;
 }
 
+/*MAIN*/
+
 main{
   height: 400px;
   margin-top: 20px;
@@ -31,4 +39,23 @@ main{
   height: 100%;
   margin: auto;
   border: 2px solid black;
+}
+
+.container-button{
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+button{
+  width: 120px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgb(36, 124, 247);
+  color: white;
+  border: 0px;
 }
