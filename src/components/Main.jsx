@@ -9,7 +9,11 @@ const Main = () => {
             <div className="container">
                 <div className="container-button">
                     {languages.map((language) => {
-                       return <Buttons key= {language.id} language={language} onClick={() => setActiveLanguage(language)}></Buttons>
+                       return <Buttons 
+                       key= {language.id} 
+                       language={language} 
+                       onClick={() => setActiveLanguage(language)}
+                       ></Buttons>
                     })}
                 </div>
                 <div className="container-description">

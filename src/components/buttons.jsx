@@ -8,4 +8,5 @@ const Buttons = ({language, onClick}) => {
     )
 }
 
+
 export default Buttons;

@@ -36,7 +36,6 @@ main{
   width: 80%;
   height: 100%;
   margin: auto;
-  border: 2px solid black;
 }
 
 .container-button{
@@ -48,7 +47,7 @@ main{
 }
 
 .container-description{
-  width: 90%;
+  width: 95%;
   height: 40%;
   margin: 0 auto;
   border: 1px solid black;
@@ -70,5 +69,10 @@ button{
 
 button:hover{
   background-color: rgb(25, 99, 203);
+}
+
+button:focus{
+  background-color: orange;
+  color: black;
 }
 
