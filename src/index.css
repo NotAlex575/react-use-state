@@ -68,3 +68,7 @@ button{
   border: 0px;
 }
 
+button:hover{
+  background-color: rgb(25, 99, 203);
+}
+

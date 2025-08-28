@@ -1,14 +1,14 @@
+import languages from "../../scripts/languages"
+import Buttons from "./buttons"
+
 const Main = () => {
     return(
         <main>
             <div className="container">
                 <div className="container-button">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
+                    {languages.map((language) => {
+                       return <Buttons key= {language.id} language={language}></Buttons>
+                    })}
                 </div>
                 <div className="container-description">
                     <h2>Nome linguaggio</h2>
